@@ -16,7 +16,7 @@ typedef enum {
 /**
  * View for displaying pie progress view like installing ios application
  */
-@interface DAProgressOverlayView : UIView
+@interface DAProgressOverlayView : UIView <CAAnimationDelegate>
 @property (strong, nonatomic) UIColor *overlayColor;
 @property (copy, nonatomic) void (^animationCompletionHandler)(DAProgressOverlayAnimationType type);
 /**
