@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.author       = { "Daria Kopaliani" => "daria.kopaliani@gmail.com", "Roman Truba" => "dreddkr@gmail.com" }
   s.source       = { :git => "https://github.com/Allogy/DAProgressOverlayView.git", :tag => s.version.to_s }
   s.platform     = :ios, '13.0'
-  s.source_files = 'DAProgressOverlayView/*.{h,m}'
+  s.source_files = 'Sources/DAProgressOverlayView/**/*.{h,m}'
 
 end
